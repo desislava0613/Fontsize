@@ -7,3 +7,14 @@ header {
     display: flex;
     justify-content: center;
 }
+
+body {
+    font-size: var(--font-size, 16px);
+    line-height: var(--line-height, 1.5);
+    font-family: var(--font-family-body, Verdana, sans-serif);
+
+}
+
+h1, h2, h3, p {
+    font-size: var(--font-size, 16px);
+}
